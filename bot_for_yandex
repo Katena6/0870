@@ -13,8 +13,8 @@ let keyword = keywords[getRandom(0,keywords.length)];
 let btnK = document.getElementsByName('btnK')[0];
 
 if (btnK != undefined){
-    document.getElementsByName('q')[0].value = keyword;
-    document.getElementsByName('btnK')[0].click();
+    document.getElementsByName('#text'),value = keyword;
+    document.getElementsByName('.button_text')[0].click();
 }else{
     let links = document.links;
 
